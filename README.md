@@ -58,13 +58,13 @@ This analysis aims to:
 This is a lead distribution dataset which contains data spanning the period of July 2023. It contains ten (10) columns and 193 rows. This dataset basically contained date and text data typesThis dataset contains the following columns
 - Client ID: The client ID serves as the unique identifier for this table.
 - Client Gender: The sex of the client
-- Sales Executives: The employee responsible for theis lead
+- Sales Executives: The employee responsible for this lead
 - Date: The date the data was gotten
 - Sales: Provides a feedback on the sales status, it tells us if a purchase was made, or provides a feedback regarding purchase
 - State: The location of the Lead
 - Product: This explains the property type that was engaged by the lead
 - Inspection: This tells us if the property was inspected by the lead
- Taking a deeper look into the data and analyzing based on DQD I noticed, there were no missing values, duplicates or outliers. This data did not capture the value of sale made.
+Taking a deeper look into the data and analyzing based on DQD, I noticed there were no missing values, duplicates or outliers. This data did not capture the value of sale made.
 
 ### Tools Used
 Excel

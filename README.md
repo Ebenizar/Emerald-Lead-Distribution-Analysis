@@ -5,7 +5,7 @@
 
 [Problem Statement](#problem-statement)
 
-[Business Objectives](#business-objectives)
+[Analysis Objectives](#analysis-objectives)
 
 [Data Description](#data-description)
 
@@ -43,3 +43,16 @@ Specifically:
 
 Without this clarity, management cannot accurately monitor workload distribution, track lead 
 flow, or understand overall sales activity patterns for the month.
+
+### Analysis Objectives
+This analysis aims to:
+- Present the total number of leads recorded
+- Show how leads were distributed across sales executives
+- Summarize lead distribution by gender
+- Display the breakdown of leads by sales status
+- Show how leads were distributed across branches (states)
+- Highlight lead distribution by property type
+- Summarize inspection outcomes (Yes / No)
+
+### Data Description
+

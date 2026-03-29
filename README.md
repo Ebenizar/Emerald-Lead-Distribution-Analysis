@@ -70,9 +70,33 @@ Taking a deeper look into the data and analyzing based on DQD, I noticed there w
 Excel
 
 ### Data Cleaning Process
+To clean this data, I imported this data into power query, renamed the file, confirmed the headers are named appropriately. I also ensured the data type is correctly assigned to each column. 
 
 ### Data Analysis
+I loaded this clean data into Excel, and used Pivot table to summerize this data. This data summerization provided me with insight into the objective of this analysis. Using the pivot table, i carried out an exploratory data analysis to extract the following information
+- Total number of leads recorded
+- Lead distribution across Sales Executives
+- Lead distribution by Gender
+- Breakdown of leads by sales status
+- lead distributed across branches (states)
+- Lead distribution by property type
+- Lead inspection outcomes (Yes / No)
 
 ### Key Insight
+From this analysis here are 7 key insights genetated;
+- None of the leads were interested in buying industrial properties
+- Most of the buying customer were males
+- Most females were either not interested, suggested they will buy next time, or said the property was too expensive
+- Lagos has the highest paying clients
+- Clients that eventually bought properties were clients that went for inspection. Inspection played a great role in motivating the leads to purchase the properties
+- Porthacourt Lead went for inspection more based on lead distribution, however most of the paid clients came from lagos. Lagos are more action takers.
+- For the sales executives, Funmi had the highest lead distribution, and Olumide had lowest. However, Olumide ensured most of his customers went for inspection. we can't say Olumide did outstandly well, because overal, he had more male leads which purchased, same goes to Funmi, most of her buying clients were males. 16/20 males for funmi bought, and 14/16 malesfor Olumide bought. Olumide and Funmi did well, however Olumide outperformed Funmi
 
 ### Business Recommendation
+Here are some recommendations;
+Usin the Pareoto principle strategy, the 80/20 rule which states that 80% of the results come from 20% of the imputes. I would recommend that
+- Emerald Enterprise should focus on more residendial properties
+- Target more of males leads
+- Ensure that most of leads generated go for inspection
+- Since most of the buying clients come from lagos, Emerald properties should invest in acquiring more properties in Lagos.
+- Since most of the females that paid came from Portharcourt, Emerald properties could provide more demographics on these females to understand why they purchased and target such females. 

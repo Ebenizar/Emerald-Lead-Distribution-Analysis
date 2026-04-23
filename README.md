@@ -7,7 +7,7 @@
 
 [Analysis Objectives](#analysis-objectives)
 
-[Dataset Description](#data-description)
+[Dataset Description](#dataset-description)
 
 [Tools Used](#tools-used)
 
@@ -54,7 +54,7 @@ This analysis aims to:
 - Highlight lead distribution by property type
 - Summarize inspection outcomes (Yes / No)
 
-### Data Description
+### Dataset Description
 This is a lead distribution dataset which contains data spanning the period of July 2023. It contains ten (10) columns and 193 rows. This dataset basically contained date and text data typesThis dataset contains the following columns
 - Client ID: The client ID serves as the unique identifier for this table.
 - Client Gender: The sex of the client

@@ -15,7 +15,7 @@
 
 [Data Analysis](#data-analysis)
 
-[Key Insight](#key-insight)
+[Key Insight](#key-insights)
 
 [Business Recommendation](#business-recommendation)
 

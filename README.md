@@ -1,4 +1,4 @@
-# Emerald-Lead-Distribution-Analysis
+# Emerald Lead Distribution and Conversion Rate Analysis
 
 ### Table Of Content
 [Background](#background)
@@ -33,13 +33,13 @@ Management has requested a descriptive overview of how these leads were distribu
 the month.
 
 ### Problem Statement
-Management currently lacks a clear, summarized view of how total leads were distributed in 
-July 2023. 
+Management currently lacks a clear, summarized view of how total leads were distributed and converted in July 2023. 
 Specifically:
 - There is no consolidated understanding of how leads were shared among sales executives
 - Customer distribution by gender is unclear
 - Lead outcomes (sales status) are not easily visible at a glance
-- Distribution by branch, property type, and inspection status has not been summarized 
+- Distribution by branch, property type, and inspection status has not been summarized
+- What is the conversion rate of these leads by sale rep, gender, location, property type and inspection type
 
 Without this clarity, management cannot accurately monitor workload distribution, track lead 
 flow, or understand overall sales activity patterns for the month.
@@ -53,6 +53,7 @@ This analysis aims to:
 - Show how leads were distributed across branches (states)
 - Highlight lead distribution by property type
 - Summarize inspection outcomes (Yes / No)
+- What is the conversion rate of these leads by sale rep, gender, location, property type and inspection type
 
 ### Dataset Description
 This is a lead distribution dataset which contains data spanning the period of July 2023. It contains ten (10) columns and 193 rows. This dataset basically contained date and text data typesThis dataset contains the following columns
@@ -67,30 +68,38 @@ This is a lead distribution dataset which contains data spanning the period of J
 Taking a deeper look into the data and analyzing based on DQD, I noticed there were no missing values, duplicates or outliers. This data did not capture the value of sale made.
 
 ### Tools Used
-Excel
+- Excel
+- Power Query
+- DAX
+- Conditional Formatting
 
 ### Data Cleaning Process
-To clean this data, I imported this data into power query, renamed the file, confirmed the headers are named appropriately. I also ensured the data type is correctly assigned to each column. 
+To clean this data, I carried out the following steps
+- imported this data into power query and renamed the file
+- Confirmed the headers are named appropriately
+- Ensured the data type is correctly assigned to each column 
 
 ### Data Analysis
 I loaded this clean data into Excel, and used Pivot table to summerize this data. This data summerization provided me with insight into the objective of this analysis. Using the pivot table, i carried out an exploratory data analysis to extract the following information
 - Total number of leads recorded
-- Lead distribution across Sales Executives
-- Lead distribution by Gender
+- Lead distribution and conversion rate across Sales Executives
+- Lead distribution and conversion rate by Gender
 - Breakdown of leads by sales status
-- lead distributed across branches (states)
-- Lead distribution by property type
-- Lead inspection outcomes (Yes / No)
+- lead distributed and conversion rate across branches (states)
+- Lead distribution and conversion rate by property type
+- Lead inspection outcomes (Yes / No), and conversion rate
 
 ### Key Insight
 From this analysis here are 7 key insights genetated;
+- The company had a conversion rate of 43.5%
+- The company had a total lead of 193, total paid of 84 and pending leads of 109
 - None of the leads were interested in buying industrial properties
 - Most of the buying customer were males
 - Most females were either not interested, suggested they will buy next time, or said the property was too expensive
 - Lagos has the highest paying clients
 - Clients that eventually bought properties were clients that went for inspection. Inspection played a great role in motivating the leads to purchase the properties
 - Porthacourt Lead went for inspection more based on lead distribution, however most of the paid clients came from lagos. Lagos are more action takers.
-- For the sales executives, Funmi had the highest lead distribution, and Olumide had lowest. However, Olumide ensured most of his customers went for inspection. we can't say Olumide did outstandly well, because overal, he had more male leads which purchased, same goes to Funmi, most of her buying clients were males. 16/20 males for funmi bought, and 14/16 malesfor Olumide bought. Olumide and Funmi did well, however Olumide outperformed Funmi
+- For the sales executives, Funmi had the highest lead distribution, and Olumide had lowest at 27 leads. However, Olumide ensured most of his customers went for inspection. we can't say Olumide did outstandly well, because overall, he had more male leads, and this gave him higher conversation rate. Same goes to Funmi, most of her buying clients were males. 16/20 males for funmi bought, and 14/16 malesfor Olumide bought. Olumide and Funmi did well, however Olumide outperformed Funmi
 
 ### Business Recommendation
 Here are some recommendations;
@@ -99,4 +108,4 @@ Usin the Pareoto principle strategy, the 80/20 rule which states that 80% of the
 - Target more of males leads
 - Ensure that most of leads generated go for inspection
 - Since most of the buying clients come from lagos, Emerald properties should invest in acquiring more properties in Lagos.
-- Since most of the females that paid came from Portharcourt, Emerald properties could provide more demographics on these females to understand why they purchased and target such females. 
+- Since most of the females that paid came from Portharcourt, Emerald properties could provide more demographics on these females to understand why they purchased and target such females in Port harcourt and other regions 
